@@ -1,0 +1,21 @@
+<ion-content padding>
+    <h1>LOGIN</h1>
+    <ion-list>
+  
+      <ion-item>
+        <ion-label fixed>E-mail:</ion-label>
+        <ion-input type="text" #usuario></ion-input>
+      </ion-item>
+    
+      <ion-item>
+        <ion-label fixed>Senha:</ion-label>
+        <ion-input type="password" #senha></ion-input>
+      </ion-item>
+  
+    </ion-list>
+  
+    
+  <button ion-button full  color="Default" (click)="login()">Entrar</button>
+  <button ion-button full  color="light" (click)="irParaCadastro()">Cadastro</button>
+  </ion-content>
+  
